@@ -1,0 +1,81 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #FF8a8a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  column-count: 3;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #D1D2D8;
+}
+
+.ui-header {
+  column-count: 2;
+}
+
+.ui-header2 {
+  column-count: 3;
+}
+
+.desc-title {
+  text-align: right;
+  color: #D1D2D8;
+  font-size: small;
+}
+
+.date {
+  text-align: left;
+  color: #D1D2D8;
+  font-size: small;
+}
+
+.number {
+  text-align: right;
+  color: #D1D2D8;
+}
+
+div {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.detail-form {
+  column-count: 3;
+  text-align: right;
+  font-size: small;
+  color: black;
+}
+
+.detail-form-total {
+  column-count: 2;
+  text-align: right;
+  font-size: small;
+  color: black;
+}
+
+.product {
+  text-align: left;
+}
+
+.pay {
+  column-count: 5;
+  text-align: right;
+}
+
+.pay-button {
+  color: #f88484;
+}
+
+.color {
+  color: #D1D2D8;
+}
