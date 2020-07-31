@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import ProductDetail from './ProductDetail';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
           <br />
           <br />
           <br/>
-          <hr className="color"/>
+          <hr />
           <div className="ui-header2">
             <p className="date">P R O D U C T</p>
             <div className="desc-title">
@@ -29,16 +30,18 @@ function App() {
               <p>P R I C E</p>
             </div>
           </div>
-          <div className="detail-form">
-            <p className="product">Espresso (large)</p>
-            <p>1</p>
-            <p>2.90</p>
-          </div>
-          <div className="detail-form">
-            <p className="product">Capuccino (small)</p>
-            <p>2</p>
-            <p>7.00</p>
-          </div>
+          <ProductDetail 
+            productName="Espresso" 
+            productSize="(large)" 
+            productUnits={1} 
+            productPrice={2.90}
+          />
+          <ProductDetail 
+            productName="Capuccino" 
+            productSize="(small)" 
+            productUnits={2} 
+            productPrice={3.50}
+          />
           <div className="detail-form-total">
             <p className="product">Total</p>
             <p></p>
